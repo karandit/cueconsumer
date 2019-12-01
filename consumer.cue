@@ -1,3 +1,5 @@
+package user
+
 import "github.com/karandit/cuesandbox"
 
 imported : cuesandbox.lovely
