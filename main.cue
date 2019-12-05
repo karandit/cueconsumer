@@ -1,4 +1,4 @@
-package demo
+package cueconsumer
 
 import "github.com/karandit/cuesandbox"
 
@@ -29,3 +29,5 @@ tf : alb : {
 	server_port :   8080
 	elb_port :      33899
 }
+
+//all : [x for x in tf]
