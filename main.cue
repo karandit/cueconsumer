@@ -3,15 +3,15 @@ package cueconsumer
 import "github.com/karandit/cuesandbox"
 
 _default_storage_type : cuesandbox.StorageType
+_default_storage_type : "io1"
 
-tf : [Name=_] : {
-	name : Name
+tf : [string] : {
 }
 
 tf : mysql : cuesandbox.MySql
 tf : mysql : {
 	aws_region :        "eu-central-1"
-	name :              "mysql"
+	name : 	            "mysql-db"
 	instance_class :    "t2.micro"
 	allocated_storage : 45
 	storage_type :      _default_storage_type
@@ -22,7 +22,7 @@ tf : mysql : {
 tf : alb : cuesandbox.AsgElb
 tf : alb : {
 	aws_region :    "eu-central-1"
-	name :          "alb"
+        name :          "load-balancer-008"
 	instance_type : "t2.micro"
 	min_size :      2
 	max_size :      2
