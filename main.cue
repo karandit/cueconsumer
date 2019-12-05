@@ -30,4 +30,3 @@ tf : alb : {
 	elb_port :      33899
 }
 
-//all : [x for x in tf]
