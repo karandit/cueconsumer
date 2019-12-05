@@ -11,6 +11,8 @@ github.com/karandit/cuesandbox v0.0.0-20191201193620-9786119f8f5f h1:gQdk8fRv7de
 github.com/karandit/cuesandbox v0.0.0-20191201193620-9786119f8f5f/go.mod h1:THPuQvUVPcuKRA2I37ATbQF7U+vBs12mtepa5AR51ww=
 github.com/karandit/cuesandbox v0.2.0 h1:ATrRQqNy6sX9cpEPp6HZg0k0kemXAAqjOsnOzsPRcWU=
 github.com/karandit/cuesandbox v0.2.0/go.mod h1:THPuQvUVPcuKRA2I37ATbQF7U+vBs12mtepa5AR51ww=
+github.com/karandit/cuesandbox v0.3.0 h1:3wZYOlmmEq1WV9f256F49Nr7lKyae/VyZC7gF7TucEU=
+github.com/karandit/cuesandbox v0.3.0/go.mod h1:THPuQvUVPcuKRA2I37ATbQF7U+vBs12mtepa5AR51ww=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
